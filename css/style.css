@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* ==============navber part start hear========== */
+#navbar{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+}
+.nav_right{
+    display: flex;
+}
+.nav_item{
+    display: flex;
+    padding: 30px 0px 20px 0px;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+}
+.nav_item a:hover{
+    color: #ebb177;
+    transition: all linear 0.2s;
+}
+.nav_item nav ul{
+    display: flex;
+    column-gap: 30px;
+    position: relative;
+}
+.li{
+    top: 5px;
+    position: relative;
+}
+.nav_item nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav_item ul li a i{
+    gap: 5px;
+    display: flex;
+    top: 9px;
+    position: relative;
+}
+/* ==========slider item ============= */
+#slider{
+    margin-top: 20px;
+}
+.d-block{
+    height: 540px;
+}
+/* ========about messi or ronaldo============== */
+.about_item_main{
+    width: 100%;
+    display: flex;
+}
+.about_item_main{
+    gap: 65px;
+    margin-top: 30px;
+}
+.about_messi{
+    width: 50%;
+    margin-right: 40px;
+}
+.about_messi a{
+    color: rgba(220, 39, 39, 0.909);
+    text-decoration: none;
+}
+.about_messi a:hover{
+    color: #0cffe9e6;
+    transition: all linear 0.2s;
+}
+.about_ronaldo a:hover{
+    color: #0cffe9e6;
+    transition: all linear 0.2;
+}
+.about_ronaldo a{
+    color: rgba(31, 203, 31, 0.839);
+    text-decoration: none;
+}
+.about_ronaldo{
+    width: 50%;
+}
+.about_img_misse{
+    width: 200px;
+    height: 200px;
+}
+.about_img_ronaldo{
+    width: 158px;
+    height: 192px;
+}
+.info{
+    margin-top: 14px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    background: hsla(206, 42%, 29%, 1);
+    top: -14px;
+    position: relative;
+    color: #ffffff;
+    border-color: hsla(206, 42%, 29%, 1);
+}
+/* ====================table part start hear==============   */
+#table{
+    margin-top: 30px;
+    width: 100%;
+}
+/* ===================foem part start hear======================== */
+.form{
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.form_p{
+    bottom: -13px;
+    position: relative;
+    color: rgb(16 51 225);
+}
+.select{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.textarea{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+}
+.button{
+    border-radius: 20px;
+    border: 2px solid transparent;
+    height: 40px;
+    width: 84px;
+    background-color: rgba(255, 0, 0, 0.604);
+}
+.button:hover{
+    background-color: #2f00ea;
+    transition: all linear 0.1s;
+    color: #ffffff;
+}
